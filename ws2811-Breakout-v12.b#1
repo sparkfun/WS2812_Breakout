@@ -127,7 +127,7 @@
 <text x="2.794" y="5.842" size="0.8128" layer="21" font="vector" ratio="15">5V</text>
 <text x="13.716" y="3.429" size="0.8128" layer="21" font="vector" ratio="15">DO</text>
 <text x="2.794" y="0.889" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
-<text x="10.16" y="11.43" size="1.016" layer="16" ratio="20" rot="MR0">V12</text>
+<text x="10.16" y="11.43" size="1.016" layer="16" ratio="20" rot="MR0">V10</text>
 <text x="4.572" y="5.842" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">5V</text>
 <text x="14.986" y="3.302" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">DO</text>
 <text x="5.334" y="0.762" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
