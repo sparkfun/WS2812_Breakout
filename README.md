@@ -4,6 +4,9 @@ WS2812 RGB LED Breakout
 [![WS2812 RGB LED Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/2/0/11820-01a_medium.jpg)  
 *WS2812 RGB LED Breakout(BOB-11820)*](https://www.sparkfun.com/products/11820)
 
+This is a breakout board for the built-in WS2812 RGB LED. 
+The WS2812 is actually an RGB LED with a WS2811 built right into the LED. 
+
 Repository Contents
 -------------------
 
