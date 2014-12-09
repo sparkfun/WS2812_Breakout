@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -160,6 +160,8 @@
 <text x="17.78" y="-17.78" size="1.778" layer="48" ratio="15">N. Seidle</text>
 <text x="8.89" y="-12.7" size="1.778" layer="51" font="vector" ratio="12">N. Seidle</text>
 <text x="-10.16" y="-15.24" size="1.778" layer="51" font="vector" ratio="12">Revised by: Patrick Alberts</text>
+<dimension x1="0" y1="17.78" x2="17.78" y2="17.78" x3="8.89" y3="19.05" textsize="1.778" textratio="15" layer="47"/>
+<dimension x1="-6.35" y1="0" x2="-6.35" y2="12.7" x3="-7.62" y3="6.35" textsize="1.778" textratio="15" layer="47"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -195,19 +197,19 @@ source: http://www.world-semi.com/uploads/soft/130904/1_1500205981.pdf</descript
 <wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
 <wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
 <wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<circle x="-1.149040625" y="1.61858125" radius="0.125" width="0.25" layer="21"/>
+<circle x="-2.995621875" y="2.53298125" radius="0.125" width="0.25" layer="21"/>
 <text x="4" y="1.2" size="1.016" layer="25">&gt;NAME</text>
 <text x="4" y="-1.6" size="0.6096" layer="27">&gt;VALUE</text>
-<wire x1="-2.50951875" y1="2.250440625" x2="-2.50951875" y2="2.504440625" width="0.127" layer="21"/>
-<wire x1="-2.50951875" y1="2.504440625" x2="-2.45871875" y2="2.504440625" width="0.127" layer="21"/>
-<wire x1="-2.45871875" y1="2.504440625" x2="-2.45871875" y2="2.499359375" width="0.127" layer="21"/>
-<wire x1="-2.45871875" y1="2.499359375" x2="2.491740625" y2="2.499359375" width="0.127" layer="21"/>
-<wire x1="2.491740625" y1="2.499359375" x2="2.491740625" y2="2.26821875" width="0.127" layer="21"/>
-<wire x1="-2.50951875" y1="-2.225040625" x2="-2.50951875" y2="-2.49681875" width="0.127" layer="21"/>
-<wire x1="-2.50951875" y1="-2.49681875" x2="-2.45871875" y2="-2.49681875" width="0.127" layer="21"/>
-<wire x1="-2.45871875" y1="-2.49681875" x2="-2.45871875" y2="-2.499359375" width="0.127" layer="21"/>
-<wire x1="-2.45871875" y1="-2.499359375" x2="2.50951875" y2="-2.499359375" width="0.127" layer="21"/>
-<wire x1="2.50951875" y1="-2.499359375" x2="2.50951875" y2="-2.2733" width="0.127" layer="21"/>
+<wire x1="-2.4892" y1="2.362203125" x2="-2.4892" y2="2.616203125" width="0.2032" layer="21"/>
+<wire x1="-2.4892" y1="2.616203125" x2="-2.4384" y2="2.616203125" width="0.2032" layer="21"/>
+<wire x1="-2.4384" y1="2.616203125" x2="-2.4384" y2="2.611121875" width="0.2032" layer="21"/>
+<wire x1="-2.4384" y1="2.611121875" x2="2.512059375" y2="2.611121875" width="0.2032" layer="21"/>
+<wire x1="2.512059375" y1="2.611121875" x2="2.512059375" y2="2.37998125" width="0.2032" layer="21"/>
+<wire x1="-2.50951875" y1="-2.319021875" x2="-2.50951875" y2="-2.5908" width="0.2032" layer="21"/>
+<wire x1="-2.50951875" y1="-2.5908" x2="-2.45871875" y2="-2.5908" width="0.2032" layer="21"/>
+<wire x1="-2.45871875" y1="-2.5908" x2="-2.45871875" y2="-2.593340625" width="0.2032" layer="21"/>
+<wire x1="-2.45871875" y1="-2.593340625" x2="2.50951875" y2="-2.593340625" width="0.2032" layer="21"/>
+<wire x1="2.50951875" y1="-2.593340625" x2="2.50951875" y2="-2.36728125" width="0.2032" layer="21"/>
 </package>
 </packages>
 </library>
@@ -637,11 +639,11 @@ design rules under a new name.</description>
 <contactref element="JP11" pad="3"/>
 <wire x1="16.51" y1="6.35" x2="1.27" y2="6.35" width="1.905" layer="16"/>
 <contactref element="D1" pad="1"/>
-<wire x1="1.27" y1="6.35" x2="5.08" y2="6.35" width="1.778" layer="1"/>
-<wire x1="5.08" y1="6.35" x2="6.35" y2="6.35" width="1.778" layer="1"/>
-<wire x1="4.953" y1="4.533" x2="4.953" y2="6.35" width="0.8128" layer="1"/>
-<wire x1="4.953" y1="6.35" x2="5.08" y2="6.35" width="0.8128" layer="1"/>
-<wire x1="6.35" y1="6.35" x2="6.44" y2="5.791" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="6.35" x2="5.08" y2="6.35" width="1.905" layer="1"/>
+<wire x1="5.08" y1="6.35" x2="5.881" y2="6.35" width="1.905" layer="1"/>
+<wire x1="4.953" y1="4.533" x2="4.953" y2="6.223" width="0.8128" layer="1"/>
+<wire x1="4.953" y1="6.223" x2="5.08" y2="6.35" width="0.8128" layer="1"/>
+<wire x1="5.881" y1="6.35" x2="6.44" y2="5.791" width="1.905" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="1"/>
