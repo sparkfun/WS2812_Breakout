@@ -7994,10 +7994,10 @@ Standard decoupling cap</description>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
-<part name="JP1" library="SparkFun" deviceset="STAND-OFF" device=""/>
+<part name="JP15" library="SparkFun" deviceset="STAND-OFF" device=""/>
 <part name="JP4" library="SparkFun" deviceset="STAND-OFF" device=""/>
-<part name="JP10" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="INPUT"/>
-<part name="JP11" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="OUTPUT"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="INPUT"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="OUTPUT"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
@@ -8035,13 +8035,13 @@ Standard decoupling cap</description>
 <attribute name="NAME" x="41.656" y="106.299" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="41.656" y="111.379" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP1" gate="G$1" x="246.38" y="33.02"/>
+<instance part="JP15" gate="G$1" x="246.38" y="33.02"/>
 <instance part="JP4" gate="G$1" x="241.3" y="33.02"/>
-<instance part="JP10" gate="G$1" x="66.04" y="109.22" smashed="yes">
+<instance part="JP1" gate="G$1" x="66.04" y="109.22" smashed="yes">
 <attribute name="VALUE" x="63.5" y="101.6" size="1.778" layer="96"/>
 <attribute name="NAME" x="63.5" y="115.062" size="1.778" layer="95"/>
 </instance>
-<instance part="JP11" gate="G$1" x="170.18" y="106.68" rot="MR0"/>
+<instance part="JP2" gate="G$1" x="170.18" y="106.68" rot="MR0"/>
 <instance part="P+4" gate="1" x="76.2" y="114.3" smashed="yes">
 <attribute name="VALUE" x="75.184" y="117.856" size="1.778" layer="96"/>
 </instance>
@@ -8068,7 +8068,7 @@ Standard decoupling cap</description>
 <pinref part="C1" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="3"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 <pinref part="P+4" gate="1" pin="VCC"/>
 <wire x1="73.66" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="111.76" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
@@ -8076,7 +8076,7 @@ Standard decoupling cap</description>
 <segment>
 <pinref part="P+5" gate="1" pin="VCC"/>
 <wire x1="160.02" y1="109.22" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="3"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
 <wire x1="162.56" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8093,7 +8093,7 @@ Standard decoupling cap</description>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="1"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="73.66" y1="106.68" x2="76.2" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="106.68" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
@@ -8101,7 +8101,7 @@ Standard decoupling cap</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="160.02" y1="104.14" x2="160.02" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="JP11" gate="G$1" pin="1"/>
+<pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="104.14" x2="160.02" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8113,7 +8113,7 @@ Standard decoupling cap</description>
 </net>
 <net name="DO" class="0">
 <segment>
-<pinref part="JP11" gate="G$1" pin="2"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="106.68" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
 <label x="160.02" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8125,7 +8125,7 @@ Standard decoupling cap</description>
 </net>
 <net name="DI" class="0">
 <segment>
-<pinref part="JP10" gate="G$1" pin="2"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="109.22" x2="76.2" y2="109.22" width="0.1524" layer="91"/>
 <label x="76.2" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
