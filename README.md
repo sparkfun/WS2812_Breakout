@@ -1,7 +1,7 @@
 SparkFun WS2812 RGB LED Breakout
 ========================
 
-![SparkFun WS2812 RGB LED Breakout](https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/1/8/2/0/11820-01a_medium.jpg)  
+![SparkFun WS2812 RGB LED Breakout](https://cdn.sparkfun.com/assets/parts/8/1/6/9/11820-01a.jpg)  
 
 [*SparkFun WS2812 RGB LED Breakout(BOB-11820)*](https://www.sparkfun.com/products/11820)
 
